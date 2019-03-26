@@ -1,7 +1,7 @@
 # linux-kernel-5.0.1-griggorii-dbg-property-patent
 kernel dbg property deb ubuntu debian
 
-https://yadi.sk/d/Dwm303c88egAzg
+https://yadi.sk/d/Dwm303c88egAzg вес dbg тладки ядра имеет 6 Гигабайт
 
 Это созданный  dbg отладчик его можно у меня приобрести за 5000000 рублей и репа с ним исчезает 
 вы заниметесь отладкой делаете супер ядро которое не то что бы летает , а парит и никогда у него ничего не отказывает 
