@@ -33,15 +33,24 @@ Android linux обычно всегда разделялся на несколь
 от рута его распаковать в корень ситемы , в итоге в системе надо найти папку от рута cm-x86-14.1-r2 потом в /boot/grub поместить фаил custom.cfg следующего заполнения как указано ниже и затем обновить grub
 
 menuentry "Android-x86 14.1-r2" {
+
 	search --set=root --file /cm-x86-14.1-r2/kernel
+	
 	linux /cm-x86-14.1-r2/kernel quiet root=/dev/ram0 androidboot.selinux=permissive vmalloc=192M buildvariant=userdebug 
+	
 	initrd /cm-x86-14.1-r2/initrd.img
+	
 }
 menuentry "Android-x86 14.1-r2 (DEBUG mode)" {
+
 	search --set=root --file /cm-x86-14.1-r2/kernel
+	
 	linux /cm-x86-14.1-r2/kernel root=/dev/ram0 androidboot.selinux=permissive vmalloc=192M buildvariant=userdebug DEBUG=2
+	
 	initrd /cm-x86-14.1-r2/initrd.img
+	
 }
+
 
 Вот только лучше бы они андроид 5 взяли чем натягивать внутрь лего этот же андройд пять что бы окошки были квадратные
 
