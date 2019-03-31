@@ -49,4 +49,5 @@ menuentry "Android-x86 14.1-r2 (DEBUG mode)" {
 cm-x86-14.1-r2 пример создания такого data.img размером 20 гигабайт , если у вас мало места то ставьте за место 20 любую цифру меньше
 
 dd if=/dev/zero of=data.img bs=1 count=0 seek=20G
+
 mkfs.ext4 data.img
