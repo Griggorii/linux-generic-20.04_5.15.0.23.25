@@ -29,4 +29,19 @@ Android linux обычно всегда разделялся на несколь
 Там уже есть termux который сам сабя упаковал в структуру т.е я заранее обеспокоился что бы там был терминал и su бинарник.
 Было снято с платформы mtk6572
 
+Я даже знаю приблизительно что у меня сдернули сборку и уже упаковали надо искать фаил дебиана с назнанием cm-x86-14.1-r2  deb установить и потом в /boot/grub поместить фаил custom.cfg следующего заполнения как указано ниже и затем обновить grub
+
+menuentry "Android-x86 14.1-r2" {
+	search --set=root --file /cm-x86-14.1-r2/kernel
+	linux /cm-x86-14.1-r2/kernel quiet root=/dev/ram0 androidboot.selinux=permissive vmalloc=192M buildvariant=userdebug 
+	initrd /cm-x86-14.1-r2/initrd.img
+}
+menuentry "Android-x86 14.1-r2 (DEBUG mode)" {
+	search --set=root --file /cm-x86-14.1-r2/kernel
+	linux /cm-x86-14.1-r2/kernel root=/dev/ram0 androidboot.selinux=permissive vmalloc=192M buildvariant=userdebug DEBUG=2
+	initrd /cm-x86-14.1-r2/initrd.img
+}
+
+Вот только лучше бы они андроид 5 взяли чем натягивать внутрь лего этот же андройд пять что бы окошки были квадратные
+
 
