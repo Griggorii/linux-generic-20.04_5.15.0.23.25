@@ -20,6 +20,9 @@ a57eecd146dcaad3249899cd76b3a36d linux-headers-5.15.0-23-generic_5.15.0-23.23_am
 db853a44d7639e14027aaa9037d41f99 linux-headers-generic-hwe-20.04_5.15.0.23.25_amd64.deb
 2216e89f91b3852db090ce7febad0120 linux-image-5.15.0-23-generic_5.15.0-23.23_amd64.deb
 852b81d753227be0cdc4775970c883af linux-image-generic-hwe-20.04_5.15.0.23.25_amd64.deb
+f268fbc15c7e6bbb4d4215cead82eafe linux-modules-5.15.0-23-generic_5.15.0-23.23_amd64.deb
+056bd84b51fc8b412a7e07698ce60ea6 linux-modules-extra-5.15.0-23-generic_5.15.0-23.23_amd64.deb
+
 
 Griggorii@gmail.com
 
