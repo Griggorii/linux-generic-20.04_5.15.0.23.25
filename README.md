@@ -5,8 +5,11 @@
                                 linux-generic-20.04_5.15.0.23.25
 
                                              MD5SUM
+                                             
+         https://github.com/Griggorii/linux-generic-20.04_5.15.0.23.25/releases/tag/deb
+                                             
 
-linux-image-generic-hwe-20.04 
+
 
 Hard-coded  logical replace parasitic dependency tech package intel-microcode, amd64-microcode change mesa libgl1-mesa-dri, libgbm1 my vendor. Delete dependency libssl3 to change standart libc6 all version all libc dependency
 
