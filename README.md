@@ -1,10 +1,10 @@
 #Only real technologies, not any fictional parasitic distributions support real technology investments and donate VISA 4817 7601 8112 4706
 
-                                                             Ubuntu deb kernel
+                                          Ubuntu deb kernel
 
-                                               linux-generic-20.04_5.15.0.23.25
+                                linux-generic-20.04_5.15.0.23.25
 
-                                                                     MD5SUM
+                                             MD5SUM
 
 linux-image-generic-hwe-20.04 
 
