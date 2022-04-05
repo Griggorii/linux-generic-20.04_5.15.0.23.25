@@ -13,7 +13,9 @@
 
 Hard-coded  logical replace parasitic dependency tech package intel-microcode, amd64-microcode change mesa libgl1-mesa-dri, libgbm1 my vendor. Delete dependency libssl3 to change standart libc6 all version all libc dependency.
 
-Install kernel easy purge blob conspiracy technologies && sudo apt purge amd64-microcode intel-microcode && sudo apt autoremove
+Install kernel easy purge blob conspiracy technologies: 
+
+sudo apt purge amd64-microcode intel-microcode && sudo apt autoremove && goodbay Lisa Su and Pavel Durov
 
 
 14bb12c7ed4e71a85148b94f69e5cc45 linux-generic-hwe-20.04_5.15.0.23.25_amd64.deb
